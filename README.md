@@ -302,12 +302,84 @@ flowchart TD
 
 Supporting libraries mastered through dedicated exercise repositories — the backbone of every Python project above.
 
-| Library | Repository | Notebooks | Key Topics |
-|---|---|---|---|
-| **NumPy** | [Numpy-Exercise](https://github.com/a-r-ashik/Numpy-Exercise) | 7 | Array ops, math, stats, search/sort |
-| **Pandas** | [Pandas-Exercise](https://github.com/a-r-ashik/Pandas-Exercise) | 9 | DataFrames, GroupBy, merge, pivot, null handling |
-| **Matplotlib** | [Matplotlib-Exercise](https://github.com/a-r-ashik/Matplotlib-Exercise) | 13 | Bar, line, scatter, histogram, subplots |
-| **Seaborn** | [Seaborn-Exercise](https://github.com/a-r-ashik/Seaborn-Exercise) | 15 | Heatmap, violin, pairplot, KDE, catplot |
+---
+
+### 6. 🔢 NumPy
+
+> **Numerical computing fundamentals — array operations, math, and statistics from scratch.**
+
+**→ Repository:** [Numpy-Exercise](https://github.com/a-r-ashik/Numpy-Exercise) &nbsp;|&nbsp; **7 Notebooks**
+
+| Notebook | Topics |
+|---|---|
+| Adding and Removing | `np.append`, `np.insert`, `np.delete` |
+| Aggregating Functions | `sum`, `min`, `max`, `mean`, `cumsum` |
+| Inspecting an Array | `shape`, `size`, `dtype`, `astype` |
+| Join and Split | `concatenate`, `hstack`, `vstack` |
+| Mathematical Operations | `add`, `subtract`, `multiply`, `sqrt`, `power` |
+| Search · Sort · Filter | `sort`, `where` |
+| Statistical Functions | `mean`, `median`, `std`, `var`, `corrcoef` |
+
+---
+
+### 7. 🐼 Pandas
+
+> **Data manipulation and wrangling — the core tool behind every EDA project in this vault.**
+
+**→ Repository:** [Pandas-Exercise](https://github.com/a-r-ashik/Pandas-Exercise) &nbsp;|&nbsp; **9 Notebooks**
+
+| Notebook | Topics |
+|---|---|
+| DataFrames | Creating from dicts, CSV & Excel |
+| Exploring Data | `head()`, `info()`, `describe()`, `isnull()` |
+| Column Transformations | `.loc[]`, `.map()`, conditional columns |
+| Handling Null Values | `isnull()`, `dropna()` |
+| Handling Duplicates | `duplicated()`, `drop_duplicates()` |
+| GroupBy | `groupby()` with `agg()` — count, mean, max |
+| Merge · Concatenate · Join | `merge()`, `concat()`, join types |
+| Pivot and Melting | `pivot()`, `melt()` for reshaping |
+
+---
+
+### 8. 📈 Matplotlib
+
+> **Core Python visualization — 13 chart types from basic plots to real-world data storytelling.**
+
+**→ Repository:** [Matplotlib-Exercise](https://github.com/a-r-ashik/Matplotlib-Exercise) &nbsp;|&nbsp; **13 Notebooks**
+
+| Notebook | Topics |
+|---|---|
+| Bar Plot | Vertical & horizontal bars, custom colors |
+| Line Plot | Single & multi-line with date/amount data |
+| Scatter Plot | Random and real employee data |
+| Histogram | Frequency distributions with custom bins |
+| Pie Chart | Brand market share and expense breakdown |
+| Box Plot | Single and multiple distribution analysis |
+| Stack Plot | Stacked area charts for trend comparison |
+| Violin Plot | Distribution with median lines |
+| Subplots | Multi-panel figure layouts |
+| Save | Exporting plots as PNG, PDF |
+
+---
+
+### 9. 🎨 Seaborn
+
+> **Statistical data visualization — 15 plot types with built-in and real-world datasets.**
+
+**→ Repository:** [Seaborn-Exercise](https://github.com/a-r-ashik/Seaborn-Exercise) &nbsp;|&nbsp; **15 Notebooks**
+
+| Notebook | Topics |
+|---|---|
+| Heatmap | Annotated pivot tables, grouped salary data |
+| Pair Plot | Pairwise grids on Tips & Iris datasets |
+| KDE Plot | Kernel Density Estimation with stacking |
+| Violin | Distribution shape on Tips & employee data |
+| Cat Plot | Figure-level categorical plots with `catplot()` |
+| Count Plot | Frequency analysis with hue grouping |
+| Scatter | Hue, size, palette — salary vs. age |
+| Strip & Swarm | Categorical distribution without overlap |
+| Relational Plot | Multi-dimensional encoding with `relplot()` |
+| Multiple Plot | FacetGrid with mapped scatter and bar plots |
 
 ---
 
