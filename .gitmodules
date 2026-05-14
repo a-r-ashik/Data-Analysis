@@ -1,0 +1,27 @@
+[submodule "numpy-exercise"]
+	path = numpy-exercise
+	url = https://github.com/a-r-ashik/Numpy-Exercise
+[submodule "pandas-exercise"]
+	path = pandas-exercise
+	url = https://github.com/a-r-ashik/Pandas-Exercise
+[submodule "matplotlib-exercise"]
+	path = matplotlib-exercise
+	url = https://github.com/a-r-ashik/Matplotlib-Exercise
+[submodule "seaborn-exercise"]
+	path = seaborn-exercise
+	url = https://github.com/a-r-ashik/Seaborn-Exercise
+[submodule "pizza-sales-sql"]
+	path = pizza-sales-sql
+	url = https://github.com/a-r-ashik/Pizza-Sales---SQL-Project
+[submodule "sales-analysis"]
+	path = sales-analysis
+	url = https://github.com/a-r-ashik/Sales-Analysis-Project
+[submodule "store-sales-dashboard"]
+	path = store-sales-dashboard
+	url = https://github.com/a-r-ashik/Store-Sales-Excel-Dashboard
+[submodule "power-bi"]
+	path = power-bi
+	url = https://github.com/a-r-ashik/Power-Bi
+[submodule "geospatial-climate"]
+	path = geospatial-climate
+	url = https://github.com/a-r-ashik/Geospatial-climate-analysis-python
