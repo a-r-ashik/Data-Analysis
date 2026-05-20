@@ -77,7 +77,7 @@ Data-Analysis/
 
 ---
 
-### 1. 📊 Power BI Dashboards
+### 1.  Power BI Dashboards
 
 > **6 professionally designed, fully interactive Power BI dashboards — spanning automotive, finance, HR, retail, luxury, and health domains.**
 
