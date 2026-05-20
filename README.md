@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📊 Data-Analysis
+#  Data-Analysis
 
 ### A curated collection of end-to-end data analysis projects spanning SQL, Python, Excel, Power BI, and Geospatial analysis
 
@@ -17,7 +17,7 @@
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 
 - [Overview](#-overview)
 - [Repository Map](#-repository-map)
@@ -38,7 +38,7 @@
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 **Data-Analysis** is a structured collection of data projects covering the full analytics stack — from raw data ingestion and SQL querying to Python-based EDA, interactive Excel dashboards, Power BI storytelling, and geospatial climate data processing.
 
@@ -57,7 +57,7 @@ Data-Analysis/
 
 ---
 
-## 🗺 Repository Map
+##  Repository Map
 
 | # | Project | Domain | Tools | Type |
 |---|---|---|---|---|
@@ -73,7 +73,7 @@ Data-Analysis/
 
 ---
 
-## 📁 Projects
+##  Projects
 
 ---
 
@@ -87,19 +87,19 @@ Data-Analysis/
 
 ```mermaid
 flowchart TD
-    PBI[🗂️ Power BI Collection] --> A
+    PBI[ Power BI Collection] --> A
     PBI --> B
     PBI --> C
     PBI --> D
     PBI --> E
     PBI --> F
 
-    A["🚗 Car Dashboard\n3 pages · KPI Cards · Budget vs Actual\nYear-over-year growth · Category drill-down"]
-    B["💰 Crypto Currency\n2 pages · Market Cap · OHLC Price\nMulti-coin comparison 2017–2021"]
-    C["👥 HR Analytics\n1 page · Attrition % · Demographics\nSalary benchmarks · Job satisfaction"]
-    D["📈 Sales Analysis\n2 pages · US Geographic Map\nRegion · Segment · Profitability"]
-    E["⌚ Watch Dashboard\n1 page · YoY Growth 2022 vs 2023\nBudget vs Actual · Country breakdown"]
-    F["🏃 Fitness Tracker\n1 page · Mobile App UI\nHealth Score · Steps · Calories · Heart Rate"]
+    A[" Car Dashboard\n3 pages · KPI Cards · Budget vs Actual\nYear-over-year growth · Category drill-down"]
+    B[" Crypto Currency\n2 pages · Market Cap · OHLC Price\nMulti-coin comparison 2017–2021"]
+    C[" HR Analytics\n1 page · Attrition % · Demographics\nSalary benchmarks · Job satisfaction"]
+    D[" Sales Analysis\n2 pages · US Geographic Map\nRegion · Segment · Profitability"]
+    E[" Watch Dashboard\n1 page · YoY Growth 2022 vs 2023\nBudget vs Actual · Country breakdown"]
+    F[" Fitness Tracker\n1 page · Mobile App UI\nHealth Score · Steps · Calories · Heart Rate"]
 
     style PBI fill:#F2C811,color:#000
     style A fill:#2D9CDB,color:#fff
@@ -118,7 +118,7 @@ flowchart LR
     B --> C[Data Model\nRelationships & Schema]
     C --> D[DAX Measures\nKPIs · Time Intelligence]
     D --> E[Interactive Report\nSlicers · Drill-through · Bookmarks]
-    E --> F[✅ Published Dashboard]
+    E --> F[ Published Dashboard]
 
     style A fill:#4a6cf7,color:#fff
     style D fill:#F2C811,color:#000
@@ -129,19 +129,19 @@ flowchart LR
 
 | Dashboard | Key DAX / Features |
 |---|---|
-| 🚗 Car | Budget vs actual variance, YoY growth %, action buttons, 3-page navigation |
-| 💰 Crypto | OHLC price analysis, full date hierarchy, multi-coin slicer |
-| 👥 HR | Attrition rate KPI, department drill-down, gender/age segmentation |
-| 📈 Sales | US state heat map, customer segment funnel, profit margin analysis |
-| ⌚ Watch | 2022 vs 2023 YTD comparison, region-level breakdown, growth % KPI |
-| 🏃 Fitness | Custom SVG background, goal-range visuals, personalized welcome text |
+|  Car | Budget vs actual variance, YoY growth %, action buttons, 3-page navigation |
+|  Crypto | OHLC price analysis, full date hierarchy, multi-coin slicer |
+|  HR | Attrition rate KPI, department drill-down, gender/age segmentation |
+|  Sales | US state heat map, customer segment funnel, profit margin analysis |
+|  Watch | 2022 vs 2023 YTD comparison, region-level breakdown, growth % KPI |
+|  Fitness | Custom SVG background, goal-range visuals, personalized welcome text |
 
 #### Stack
 `Power BI Desktop` · `DAX` · `Power Query (M)` · `Custom Visuals` · `SVG Backgrounds`
 
 ---
 
-### 2. 🛍️ Sales Analysis — Python EDA
+### 2.  Sales Analysis — Python EDA
 
 > **Exploratory data analysis on Diwali season retail data — uncovering who buys what, where, and why.**
 
@@ -151,15 +151,15 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    A[📄 Sales Data.csv] --> B[Data Cleaning\nPandas · Drop nulls · Fix dtypes]
+    A[ Sales Data.csv] --> B[Data Cleaning\nPandas · Drop nulls · Fix dtypes]
     B --> C[Exploratory Analysis]
     C --> D[Gender Analysis]
     C --> E[Age Group Analysis]
     C --> F[State-wise Analysis]
     C --> G[Occupation Analysis]
     C --> H[Product Category]
-    D & E & F & G & H --> I[📊 Visualizations\nMatplotlib · Seaborn]
-    I --> J[✅ Business Insights]
+    D & E & F & G & H --> I[ Visualizations\nMatplotlib · Seaborn]
+    I --> J[ Business Insights]
 
     style A fill:#4a6cf7,color:#fff
     style I fill:#D97706,color:#fff
@@ -183,7 +183,7 @@ flowchart LR
 
 ---
 
-### 3. 🛒 Store Sales — Excel Dashboard
+### 3.  Store Sales — Excel Dashboard
 
 > **End-to-end Excel dashboard for Vrinda Store — 31,047 orders, ₹2.11 Cr revenue, 7 e-commerce platforms.**
 
@@ -193,16 +193,16 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    RAW[📋 Raw Data\n31,047 Orders · Jan–Dec 2022] --> PVT[Pivot Tables\n6 analysis sheets]
+    RAW[ Raw Data\n31,047 Orders · Jan–Dec 2022] --> PVT[Pivot Tables\n6 analysis sheets]
 
-    PVT --> A[📅 Monthly Trend\nSales vs Orders]
-    PVT --> B[👩 Gender Split\nRevenue by gender]
-    PVT --> C[📦 Order Status\nDelivered · Cancelled · Returned]
-    PVT --> D[🗺️ Top 5 States\nRevenue ranking]
-    PVT --> E[👥 Age × Gender\nCross-tab behaviour]
-    PVT --> F[🛒 Channel Share\nAmazon · Flipkart · Myntra · More]
+    PVT --> A[ Monthly Trend\nSales vs Orders]
+    PVT --> B[ Gender Split\nRevenue by gender]
+    PVT --> C[ Order Status\nDelivered · Cancelled · Returned]
+    PVT --> D[ Top 5 States\nRevenue ranking]
+    PVT --> E[ Age × Gender\nCross-tab behaviour]
+    PVT --> F[ Channel Share\nAmazon · Flipkart · Myntra · More]
 
-    A & B & C & D & E & F --> DASH[📊 Interactive Dashboard\nSlicers: Month · Category · Channel]
+    A & B & C & D & E & F --> DASH[ Interactive Dashboard\nSlicers: Month · Category · Channel]
 
     style RAW fill:#217346,color:#fff
     style DASH fill:#22C55E,color:#fff
@@ -224,7 +224,7 @@ flowchart TD
 
 ---
 
-### 4. 🍕 Pizza Sales — SQL
+### 4.  Pizza Sales — SQL
 
 > **Multi-level SQL analysis — Basic, Intermediate, and Advanced queries on a pizza restaurant dataset.**
 
@@ -234,15 +234,15 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    DB[(🗄️ Pizza Sales Database)] --> B & I & A
+    DB[( Pizza Sales Database)] --> B & I & A
 
-    B["🔹 Basic\nTotal orders · Total revenue\nHighest-priced pizza\nMost common size · Top 5 types"]
+    B[" Basic\nTotal orders · Total revenue\nHighest-priced pizza\nMost common size · Top 5 types"]
 
-    I["🔸 Intermediate\nCategory-wise quantity\nOrders by hour of day\nAvg pizzas per day\nTop 3 by revenue"]
+    I[" Intermediate\nCategory-wise quantity\nOrders by hour of day\nAvg pizzas per day\nTop 3 by revenue"]
 
-    A["🔺 Advanced\nRevenue % per pizza type\nTop 3 per category by revenue\nWindow functions · CTEs"]
+    A[" Advanced\nRevenue % per pizza type\nTop 3 per category by revenue\nWindow functions · CTEs"]
 
-    B --> OUT[✅ Business Insights]
+    B --> OUT[ Business Insights]
     I --> OUT
     A --> OUT
 
@@ -258,7 +258,7 @@ flowchart TD
 
 ---
 
-### 5. 🌏 Geospatial Climate Analysis
+### 5.  Geospatial Climate Analysis
 
 > **Production-grade Python pipeline — ERA5 reanalysis NetCDF data aggregated over Bangladesh's 8 administrative divisions (2019–2025).**
 
@@ -275,7 +275,7 @@ flowchart TD
     D --> E
 
     E --> F[Pandas\nData wrangling\nUnit conversions · Tidy format]
-    F --> G[📄 bd_division_monthly_2019_2025.csv\nOne row per division × month]
+    F --> G[ bd_division_monthly_2019_2025.csv\nOne row per division × month]
 
     style A fill:#4285F4,color:#fff
     style C fill:#2E8B57,color:#fff
@@ -298,13 +298,13 @@ flowchart TD
 
 ---
 
-## 🧰 Python Foundations
+##  Python Foundations
 
 Supporting libraries mastered through dedicated exercise repositories — the backbone of every Python project above.
 
 ---
 
-### 6. 🔢 NumPy
+### 6.  NumPy
 
 > **Numerical computing fundamentals — array operations, math, and statistics from scratch.**
 
@@ -322,7 +322,7 @@ Supporting libraries mastered through dedicated exercise repositories — the ba
 
 ---
 
-### 7. 🐼 Pandas
+### 7.  Pandas
 
 > **Data manipulation and wrangling — the core tool behind every EDA project in this vault.**
 
@@ -341,7 +341,7 @@ Supporting libraries mastered through dedicated exercise repositories — the ba
 
 ---
 
-### 8. 📈 Matplotlib
+### 8.  Matplotlib
 
 > **Core Python visualization — 13 chart types from basic plots to real-world data storytelling.**
 
@@ -362,7 +362,7 @@ Supporting libraries mastered through dedicated exercise repositories — the ba
 
 ---
 
-### 9. 🎨 Seaborn
+### 9.  Seaborn
 
 > **Statistical data visualization — 15 plot types with built-in and real-world datasets.**
 
@@ -383,7 +383,7 @@ Supporting libraries mastered through dedicated exercise repositories — the ba
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer | Technologies |
 |---|---|
@@ -396,14 +396,14 @@ Supporting libraries mastered through dedicated exercise repositories — the ba
 
 ---
 
-## 🔄 Analysis Pipeline
+##  Analysis Pipeline
 
 ```mermaid
 flowchart LR
-    A[📥 Raw Data\nCSV · Excel · SQL · NetCDF] --> B[🧹 Clean & Transform\nPandas · Power Query · SQL]
-    B --> C[🔍 Explore & Analyse\nEDA · Aggregations · Zonal Stats]
-    C --> D[📊 Visualize\nMatplotlib · Seaborn · Power BI · Excel]
-    D --> E[✅ Insights & Decisions\nBusiness recommendations]
+    A[ Raw Data\nCSV · Excel · SQL · NetCDF] --> B[🧹 Clean & Transform\nPandas · Power Query · SQL]
+    B --> C[ Explore & Analyse\nEDA · Aggregations · Zonal Stats]
+    C --> D[ Visualize\nMatplotlib · Seaborn · Power BI · Excel]
+    D --> E[ Insights & Decisions\nBusiness recommendations]
 
     style A fill:#4a6cf7,color:#fff
     style B fill:#D97706,color:#fff
@@ -414,7 +414,7 @@ flowchart LR
 
 ---
 
-## 👤 Author
+##  Author
 
 **Ashikur Rahman**
 
